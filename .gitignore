@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editable / build artifacts (setuptools)
+*.egg-info/
+dist/
+build/
+
+# OS noise
+Thumbs.db
+.DS_Store
